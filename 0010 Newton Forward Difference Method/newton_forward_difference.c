@@ -29,7 +29,7 @@ int main()
     // Find The Difference Table
     for (int j = 2; j < n + 1; ++j)
     {
-        for (int i = 0; i < n - j + 1; ++j)
+        for (int i = 0; i < n - j + 1; ++i)
             arr[i][j] = arr[i + 1][j - 1] - arr[i][j - 1];
     }
 
