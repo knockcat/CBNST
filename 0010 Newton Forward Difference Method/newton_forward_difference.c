@@ -1,3 +1,5 @@
+// Write a program in “C” Language to interpolate numerically using Newton Forward Difference Method.
+
 #include <stdio.h>
 #include <math.h>
 
